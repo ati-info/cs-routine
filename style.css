@@ -332,11 +332,11 @@ tr:hover {
 }
 
 /* --- Light Bulb Toggle Styles --- */
+/* --- Light Bulb Toggle Styles --- */
 #light-bulb-container {
-    position: fixed;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: fixed; /* বাতিটিকে স্ক্রিনে স্থির করে রাখবে */
+    top: 50px;       /* উপরের দিক থেকে দূরত্ব */
+    left: 50px;      /* বাম দিক থেকে দূরত্ব */
     z-index: 999;
     cursor: pointer;
     width: 60px;
@@ -347,6 +347,7 @@ tr:hover {
     justify-content: flex-start;
     transition: opacity 0.5s ease-in-out;
 }
+
 
 .bulb-scene {
     position: relative;
@@ -371,7 +372,7 @@ tr:hover {
 
 .bulb-body.on {
     background-color: #ffcc00;
-    box-shadow: 0 0 15px 5px rgba(255, 204, 0, 0.7);
+    box-shadow: 0 0 15px 5px rgba(255, 204, 224, 0.5);
 }
 
 .bulb-base {
